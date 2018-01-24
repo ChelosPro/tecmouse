@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>TECMOUSE</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.4.2.js" ></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/CabinSketch_700.font.js"></script>
+<script type="text/javascript" src="js/EB_Garamond_400.font.js"></script>
+
+</head>
+<body id="page1">
+<div class="main">
+	<header>
+		<div class="wrapper">
+			<nav>
+				<ul id="menu">
+					<li><a href="index.html"><span>I</span>nicio</a></li>
+					<li id="menu_active"><a href='/Descargar'><span>D</span>escarga</a></li>						<li id="menu_active"><a href='/Ayuda'><span>A</span>yuda</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section id="content">
+		<div class="wrapper">
+			<article class="col1">
+				<h2>TECMOUSE</h2>
+				<div class="pad_left1 pad_bot1">
+					<div id="slider">
+						<div id="for_img">
+							<div id="nivo_slider">
+								<img src="images/img1.jpg" alt="">
+								<img src="images/img4.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="pad">
+						<p><h2><span>QUES ES TECMOUSE</span></h2>
+						<br>
+EN LA CIUDAD QUITO EN LOS ÚLTIMOS AÑOS SE HA DETECTADO QUE POR LA FALTA DEL TECLADO Y MOUSE (HARDWARE) DE UNA PC LAS PERSONAS NO PUEDEN CONTINUAR CON SUS ACTIVIDADES NORMALMENTE.
+
+EL PROYECTO TECMOUSE, HA DETECTADO LA NECESIDAD DE CONSTRUIR UN APLICATIVO PARA PODER USAR EL MOUSE Y EL TECLADO DE UNA PC CON SISTEMA OPERATIVO WINDOWS POR MEDIO DEL CELULAR.
+
+					</div>
+				</div>
+				<h2><span>REQUISITOS MÍNIMO</span></h2>
+				<div class="pad_left1">
+					<div class="pad_left1">
+						<div class="wrapper pad_top1">
+							<div class="col3">
+								<div class="wrapper">
+									<figure class="left marg_right1"><img src="images/page1_img3.png" alt=""></figure>
+									<p class="cols"><strong class="font1">Development</strong><br>Error sit voluptatem 
+									accus antium doloremque laiantium totam rem aperiam, eaque tecto beatae.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+    		</article>
+
+		</div>
+	</section>
+
+	<footer>
+		<br><br>
+	</footer>
+</div>
+<script type="text/javascript">Cufon.now();</script>
+<script type="text/javascript">
+	$(window).load(function() {
+	$('#nivo_slider').nivoSlider({
+		effect:'fold', 
+		slices:7,
+		animSpeed:500,
+		pauseTime:6000,
+		startSlide:0, 
+		directionNav:true,
+		directionNavHide:false, 
+		controlNav:true, 
+		controlNavThumbs:false,
+		controlNavThumbsFromRel:false, 
+		controlNavThumbsSearch: '.jpg',
+		controlNavThumbsReplace: '_thumb.jpg',
+		keyboardNav:true, 
+		pauseOnHover:true, 
+		beforeChange:function(){},
+		afterChange:function(){},
+		slideshowEnd:function(){}
+	});
+});
+</script>
+</body>
+</html>

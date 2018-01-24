@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Gallery</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="all">
+	<script type="text/javascript" src="js/jquery-1.4.2.js" ></script>
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+	<script type="text/javascript" src="js/cufon-yui.js"></script>
+	<script type="text/javascript" src="js/cufon-replace.js"></script>
+	<script type="text/javascript" src="js/CabinSketch_700.font.js"></script>
+	<script type="text/javascript" src="js/EB_Garamond_400.font.js"></script>
+	<script type="text/javascript" src="js/hover-image.js"></script>
+
+</head>
+<body id="page3">
+	<div class="main">
+		<!-- header -->
+		<header>
+			<div class="wrapper">
+				<nav>
+					<ul id="menu">
+						<li><a href="index.html"><span>I</span>nicio</a></li>
+						<li id="menu_active"><a href='/Descargar'><span>D</span>escarga</a></li>
+						<li id="menu_active"><a href='/Ayuda'><span>A</span>yuda</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- / header -->
+		<!-- content -->
+		<section id="content">
+			<div class="wrapper">
+				<article class="col1">
+					<div class="pad_left1 pad_bot1">
+						<p><h2><span>REQUISITOS PROGRAMA PARA PC</span></h2>
+						<br>
+							<ul>
+								<li type="disc">Sistema Operativo Windows 8, 8.1 o 10.</li>
+								<li type="disc">Memoria: 2 GB de RAM.</li>
+							</ul>
+						<p><h2><span>Instalación</span></h2>
+						<br>
+							<ul>
+								<li type="disc">Sistema Operativo Windows 8, 8.1 o 10.</li>
+								<li type="disc">Memoria: 2 GB de RAM.</li>
+								<li type="disc">Y este es otro diferente.</li>
+							</ul>
+						</div>
+						<h2><span>REQUISITOS APLICACIÓN PARA ANDROID</span></h2>
+						<ul>
+								<li type="disc">Android v4.0.1 en adelante</li>
+							</ul>
+						<p><h2><span>Instalación</span></h2>
+						<br>
+							<ul>
+								<li type="disc">Descargar el apk.</li>
+								<li type="disc">Ir a configuraciones.</li>
+								<li type="disc">Ir a seguridad.</li>
+								<li type="disc">Seleccionar en Origenes desconocidos.</li>
+								<li type="disc">Abrir e instalar el apk descargado.</li>
+							</ul>
+					</article>
+				</div>
+			</section>
+			<footer>
+			</footer>	
+			<!-- / footer -->
+		</div>
+		<script type="text/javascript">Cufon.now();</script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				if ($("a[rel^='prettyPhoto']").length) {
+					$(document).ready(function() {
+				// prettyPhoto
+				$("a[rel^='prettyPhoto']").prettyPhoto({theme:'facebook'});
+				///// codegrabber ////////////
+				$(".code a.code-icon").toggle(function(){$(this).addClass("minus").next("p").slideDown();}, function(){$(this).removeClass("minus").next("p").slideUp();})
+			});
+				}
+			});
+		</script>
+	</body>
+	</html>
